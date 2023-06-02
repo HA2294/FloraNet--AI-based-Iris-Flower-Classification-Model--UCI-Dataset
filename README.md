@@ -22,10 +22,14 @@ By analyzing these four features, the deep learning model learned to accurately 
 # <ins>**Future Features**</ins>
 **Model Deployment**:
 *The trained deep learning model needs to be saved in a format suitable for deployment. This typically involves converting the model into a serialized format, such as a TensorFlow SavedModel or a serialized pickle file.
+
 *The deployed model should include any necessary preprocessing steps, such as feature scaling or encoding, to ensure the input data matches the model's expectations.
 
 **treamlit Web App Development**:
 *Streamlit is a Python library that simplifies the development of interactive web apps. It allows developers to create intuitive user interfaces with minimal code.
+
 *Using Streamlit, you can create a new Python script that loads the trained model and defines the app's layout and functionality.
+
 *The Streamlit app can include input fields where users can provide the required features (sepal length, sepal width, petal length, and petal width) for classification.
+
 *The app can also display the predicted iris species based on the user inputs, along with any additional information or visualizations you want to present.
