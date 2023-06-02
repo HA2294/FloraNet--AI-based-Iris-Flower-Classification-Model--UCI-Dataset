@@ -15,5 +15,5 @@ The deep learning model leveraged the power of neural networks to learn intricat
 By analyzing these four features, the deep learning model learned to accurately classify specific iris species. The model was trained to recognize subtle differences in sepal and petal dimensions that distinguish one species from another. The inclusion of these key features allowed the model to capture the essence of the iris species' variations and make accurate predictions.
 
 **Software and Libraries**
-- Python 3.0
-- scikit-learn 0.18.1
+- Python
+- scikit-learn
