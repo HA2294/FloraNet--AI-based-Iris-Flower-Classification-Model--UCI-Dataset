@@ -1,5 +1,5 @@
-# Iris_Flower_Classification_KNN_Model
-## <ins>**UCI Data Set / sklearn Setup**</ins>
+# Iris_Flower_Classification
+## <ins>**UCI Data-Set / Sklearn Setup**</ins>
 The primary objective of the project was to develop a deep learning model capable of accurately classifying over 200 species of iris flowers. The project successfully achieved an accuracy of over 95% in this classification task, highlighting the effectiveness of the developed model.
 
 To accomplish this goal, a comprehensive iris dataset from the scikit-learn (sklearn) library was utilized. The dataset consisted of samples from three distinct flower classes: Versicolor, Setosa, and Virginica. Each flower class represents a different species of iris. This sklearn iris dataset provided a reliable and well-structured resource for training and evaluating the deep learning model.
