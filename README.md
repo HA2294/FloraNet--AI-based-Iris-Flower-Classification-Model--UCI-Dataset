@@ -20,14 +20,20 @@ By analyzing these four features, the deep learning model learned to accurately 
 
 
 # <ins>**Future Features**</ins>
-**Model Deployment**:
+**Model Deploymen:t**:
  - The trained deep learning model needs to be saved in a format suitable for deployment. This typically involves converting the model into a serialized format, such as a TensorFlow SavedModel or a serialized pickle file.
   - The deployed model should include any necessary preprocessing steps, such as feature scaling or encoding, to ensure the input data matches the model's expectations.
  
-**treamlit Web App Development**:
+**Streamlit Web App Development:**:
  - Streamlit is a Python library that simplifies the development of interactive web apps. It allows developers to create intuitive user interfaces with minimal code.
   - Using Streamlit, you can create a new Python script that loads the trained model and defines the app's layout and functionality.
   - The Streamlit app can include input fields where users can provide the required features (sepal length, sepal width, petal length, and petal width) for classification.
   - The app can also display the predicted iris species based on the user inputs, along with any additional information or visualizations you want to present.
  
+**Integration with AWS:**:
+ - AWS provides various services for hosting web applications. One popular option is Amazon EC2 (Elastic Compute Cloud), which allows you to create virtual servers to host your application.
+  - Begin by setting up an EC2 instance with the necessary configuration, including the required Python environment and dependencies.
+  - Once the EC2 instance is ready, you can transfer your Streamlit web app files to the instance, either manually or through a version control system like Git.
+  - Start the Streamlit app on the EC2 instance, and ensure it's accessible through the assigned public IP or domain name. 
  
+
