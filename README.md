@@ -1,4 +1,5 @@
-# Iris_Flower_Classification_UCI_AI_Model
+# FloraNet: AI-based Iris Flower Classification Model for UCI Dataset
+
 ## <ins>**UCI Data-Set / Sklearn Setup**</ins>
 The primary objective of the project was to develop a deep learning model capable of accurately classifying over 200 species of iris flowers. The project successfully achieved an accuracy of over 95% in this classification task, highlighting the effectiveness of the developed model.
 
